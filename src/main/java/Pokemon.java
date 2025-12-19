@@ -38,6 +38,6 @@ public abstract class Pokemon implements Attaquant{
     }
 
     public void combattre(Pokemon combatant){
-        System.out.println( nom + " Combat "  + combatant.getNom() );
+        System.out.println("Votre " + nom + " de niveau " + niveau + " ayant " + pv + " points-de-vie, combat "  + combatant.getNom() + " de niveau " +combatant.getNiveau() + " ayant " + combatant.getPv() + " points-de-vie." );
     }
 }
